@@ -1,2 +1,47 @@
 # ARMCMC
 Adaptive Recursive Markov Chain Monte Carlo
+
+This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [Applied Reinforcement Learning](https://www.ldv.ei.tum.de/en/lehre/applied-reinforcement-learning/).
+
+
+## Requirements
+* Python 2.7 (Python 3 for [sensor-model fitting](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/sensormodel/lidar_sensor_model.ipynb) and [auto-encoder training](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/autoencoders/vae_experiments.ipynb))
+* ROS-Kinetic with turtlebot
+* Catkin
+* PyTroch
+* Scipy
+* PyYAML
+
+## Instructions
+1. Move the `rl_tb_lidar` and `stage_ros_u` folders to `catkin_ws/src` directory.
+2. run `catkin_make` in the `catkin_ws` directory.
+3. Run `source devel/setup.bash` command in the `catkin_ws` directory.
+4. Run `roslaunch rl_tb_lidar tb_stage_m1.launch` to launch only stage.
+5. Open an another terminal, go to the directory of the python script e.g. `cd ~/catkin_ws/src/rl_tb_lidar/src` and run `python main.py configs/config.yaml`.
+5. To try different configurations, edit the `configs/config.yaml` file accordingly.
+
+## Results
+### Reward Graphs:
+| State Representation    | Linear Value Function Approximation    | Algorithms    |
+| :---------------------: | :------------------------------------: | :-----------: |
+| ![State Representation](assets/reward_graphs/state_representation.svg) | ![Linear Value Function Approximation](assets/reward_graphs/lvfa.svg) | ![Algorithms](assets/reward_graphs/algorithms.svg) |
+
+[More graphs](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/assets/reward_graphs).
+
+### Project Demo.:
+| Simulation | Real Turtlebot |
+| :---------------------: | :------------------------------------: |
+| ![Simulation](assets/demo/simulation.gif) | ![Real Turtlebot](assets/demo/real_turtlebot.gif) |
+
+### Supplementary Material:
+* [Sensor Model Notebook](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/sensormodel/lidar_sensor_model.ipynb)
+* [Auto-Encoders Notebook](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/autoencoders/vae_experiments.ipynb)
+* [Source Code](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src)
+
+## Versioning
+
+We version the project with each new deliverable. For the versions available, see the [tags on this repository](https://github.com/uzairakbar/rl-obstacle-avoidance/tags).
+
+## Authors
+
+* **Anonymous
