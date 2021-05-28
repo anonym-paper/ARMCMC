@@ -25,9 +25,9 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 
 
 ### Project Demo.:
-| Simulation | Real Turtlebot |
+| Instant probability of K_e | Force estimation |
 | :---------------------: | :------------------------------------: |
-| ![Simulation](assets/demo/simulation.gif) | ![Real Turtlebot](assets/demo/real_turtlebot.gif) |
+| ![Simulation](asset/Hunt-crossley.gif)  |
 
 ### Supplementary Material:
 * [Sensor Model Notebook](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/sensormodel/lidar_sensor_model.ipynb)
