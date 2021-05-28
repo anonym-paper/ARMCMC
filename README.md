@@ -25,9 +25,14 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 
 
 ### Project Demo.:
+
+| Instant probability of K_e |
+| :---------------------: |
+| ![Simulation](asset/Hunt-crossley.gif) |
+
 | Instant probability of K_e | Force estimation |
 | :---------------------: | :------------------------------------: |
-| ![Simulation](asset/Hunt-crossley.gif)  |
+| ![Simulation](asset/Hunt-crossley.gif)|f  |
 
 ### Supplementary Material:
 * [Sensor Model Notebook](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/sensormodel/lidar_sensor_model.ipynb)
