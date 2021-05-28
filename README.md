@@ -1,16 +1,13 @@
 # ARMCMC
 Adaptive Recursive Markov Chain Monte Carlo
 
-This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [Applied Reinforcement Learning](https://www.ldv.ei.tum.de/en/lehre/applied-reinforcement-learning/).
+This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [Thirty-fifth Conference on Neural Information Processing Systems](https://neurips.cc).
 
 
 ## Requirements
-* Python 2.7 (Python 3 for [sensor-model fitting](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/sensormodel/lidar_sensor_model.ipynb) and [auto-encoder training](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/src/rl_tb_lidar/src/utils/autoencoders/vae_experiments.ipynb))
-* ROS-Kinetic with turtlebot
-* Catkin
-* PyTroch
-* Scipy
-* PyYAML
+* MATLAB
+* SIMULINK
+* CMEX
 
 ## Instructions
 1. Move the `rl_tb_lidar` and `stage_ros_u` folders to `catkin_ws/src` directory.
@@ -21,10 +18,10 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [A
 5. To try different configurations, edit the `configs/config.yaml` file accordingly.
 
 ## Results
-### Reward Graphs:
+### Hunt-Crossley:
 | State Representation    | Linear Value Function Approximation    | Algorithms    |
 | :---------------------: | :------------------------------------: | :-----------: |
-| ![State Representation](assets/reward_graphs/state_representation.svg) | ![Linear Value Function Approximation](assets/reward_graphs/lvfa.svg) | ![Algorithms](assets/reward_graphs/algorithms.svg) |
+| ![State Representation](asset1/theta1.PNG) | ![Linear Value Function Approximation](asset/theta2.PNG) | ![Algorithms](asset/theta3.PNG) |
 
 [More graphs](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/assets/reward_graphs).
 
