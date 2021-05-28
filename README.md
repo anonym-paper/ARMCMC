@@ -19,11 +19,10 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 
 ## Results
 ### Hunt-Crossley:
-| State Representation    | Linear Value Function Approximation    | Algorithms    |
+| K_e    | B_e  | n_e   |
 | :---------------------: | :------------------------------------: | :-----------: |
 | ![State Representation](asset/theta1.png) | ![Linear Value Function Approximation](asset/theta2.png) | ![Algorithms](asset/theta3.png) |
 
-[More graphs](https://github.com/uzairakbar/rl-obstacle-avoidance/blob/master/assets/reward_graphs).
 
 ### Project Demo.:
 | Simulation | Real Turtlebot |
