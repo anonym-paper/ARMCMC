@@ -1,9 +1,9 @@
 This is Different experiments in this paper.
 
 ## Fluid soft bending actuator
-`cd fluid-bend`
+`cd fluid-bend
 
-`Soft_bend_ARMCMC >> ARMCMC`
+Soft_bend_ARMCMC >> ARMCMC`
 `soft_bend_simpleMCMC >> MCMC`
 
 ## HUnt-crossley model
