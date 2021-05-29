@@ -21,7 +21,7 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 &nbsp;&nbsp;&nbsp;&nbsp; 3.3. Real data soft contact `cd experiments/soft-contact` and run `mex [].c` in MATLAB console to genereate mex files and
 
 
-run the mld file for model and appaorch integrated in simulink (refer to the readme on that directory).
+run the mld file(s) for model and appaorch integrated in simulink (refer to the readme on that directory).
 
 
 ## Results
