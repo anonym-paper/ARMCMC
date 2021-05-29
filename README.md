@@ -32,7 +32,7 @@ run the mld file(s) for model and appaorch integrated in simulink (refer to the 
 | ![State Representation](asset/theta1.png) | ![Linear Value Function Approximation](asset/theta2.png) | ![Algorithms](asset/theta3.png) |
 
 
-### Project Demo.:
+### Project Demo:
 
 |RLS approach  | Instant probability of K_e for ARMCMC |
 | :---------------------: | :------------------------------------: |
