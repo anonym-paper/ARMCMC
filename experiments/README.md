@@ -8,7 +8,7 @@ Soft_bend_ARMCMC >> ARMCMC
 soft_bend_simpleMCMC >> MCMC
 ```
 
-## HUnt-crossley model
+## Hunt-crossley model
 
 ```
 cd hunt-crossley
