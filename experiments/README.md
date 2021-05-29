@@ -18,7 +18,7 @@ Hunt_crossley_Ident_simpleMCMC >> MCMC
 ```
 
 
-## Data acquisition realtime
+## Data acquisition (realtime)
 
 This is for forward/inverse kinematic of plannar robot intracticting with soft contact with the single MX64 motor realtime comminication via Wotcam compiler.
 ```
