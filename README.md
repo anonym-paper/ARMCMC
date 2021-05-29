@@ -23,6 +23,7 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 
 run the mld file(s) for model and appaorch integrated in simulink (refer to the readme on that directory).
 
+4. For producing the figures, `cd src/data/` and run either of the plotting codes.
 
 ## Results
 ### Hunt-Crossley:
