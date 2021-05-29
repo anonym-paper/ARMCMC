@@ -13,11 +13,12 @@ This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [T
 1. Move the `main.m` and `armcmc.m` folders to `ARMCMC/src` directory.
 2. run `armcmc.m` in the `dataset` directory for different dataset.
 3. Generating the results:
-&nbsp;&nbsp; 3.1. Hunt-crossley `cd experiments/hunt-crossley` and
 
-&nbsp;&nbsp;3.2. Fluid soft bend `cd experiments/Fluid-bend` and
+&nbsp;&nbsp;&nbsp;&nbsp; 3.1. Hunt-crossley `cd experiments/hunt-crossley` and
 
-&nbsp;&nbsp; 3.3. Real data soft contact `cd experiments/soft-contact` and run `mex [].c` in MATLAB console to genereate appropriate mex files and
+&nbsp;&nbsp;&nbsp;&nbsp;3.2. Fluid soft bend `cd experiments/Fluid-bend` and
+
+&nbsp;&nbsp;&nbsp;&nbsp; 3.3. Real data soft contact `cd experiments/soft-contact` and run `mex [].c` in MATLAB console to genereate appropriate mex files and
 
 
 run the mld file for model and appaorch integrated in simulink (refer to the readme on that directory).
