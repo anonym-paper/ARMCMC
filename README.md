@@ -1,7 +1,7 @@
 # ARMCMC
 Adaptive Recursive Markov Chain Monte Carlo
 
-This project lists all of the deliverables for the ARMCMC paper in NIPS 2021. [Thirty-fifth Conference on Neural Information Processing Systems](https://neurips.cc).
+This project lists all of the deliverables for the ARMCMC paper in KDD 2022.
 
 
 ## Requirements
